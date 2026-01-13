@@ -37,7 +37,7 @@ p {
 .chats {
     min-height: 200px;
     width: 350px;
-    border: 2px solid red;
+    border: 2px solid;
     margin: 35px 70px;
     border-radius: 10px 10px 10px 10px;
     background-color: rgba(78, 78, 168, 0.644);
@@ -93,4 +93,12 @@ p {
     position: relative;
     left: 80px;
     border-radius: 10px 10px 10px;
+}
+
+#eyes {
+    width: 60px;
+    position: absolute;
+    top: -35px;
+    left: 47px;
+
 }
